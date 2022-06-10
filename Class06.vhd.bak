@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity class06 is
+	port(
+		clk:in std_logic;
+		seg3, seg2, seg1, seg0:out std_logic_vector(7 downto 0));
+end class06;
+
+architecture a of class06 is
+
+
+begin
+
+
+end class06;
